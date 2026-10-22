@@ -1,0 +1,348 @@
+{
+  "player": {
+    "class_name": "Knight",
+    "name": "Hero",
+    "level": 6,
+    "exp": 271,
+    "exp_to_next": 1350,
+    "gold": 3149,
+    "max_hp": 165,
+    "current_hp": 124,
+    "uses_mana": false,
+    "max_mana": 0,
+    "mana": 0.0,
+    "mana_regen": 0.0,
+    "attack_power": 26,
+    "defense": 10,
+    "speed": 130.0,
+    "current_weapon_idx": 1,
+    "inventory_items": [
+      {
+        "name": "Health Potion",
+        "type": "POTION",
+        "qty": 18,
+        "potion_type": "HEALTH",
+        "potency": 35,
+        "duration": 0.0
+      },
+      {
+        "name": "Mana Potion",
+        "type": "POTION",
+        "qty": 8,
+        "potion_type": "MANA",
+        "potency": 10,
+        "duration": 15.0
+      },
+      {
+        "name": "Speed Potion",
+        "type": "POTION",
+        "qty": 4,
+        "potion_type": "SPEED",
+        "potency": 30,
+        "duration": 12.0
+      },
+      {
+        "name": "Strength Potion",
+        "type": "POTION",
+        "qty": 2,
+        "potion_type": "STRENGTH",
+        "potency": 10,
+        "duration": 15.0
+      }
+    ],
+    "weapons": [
+      {
+        "name": "Excalibur",
+        "id": "excalibur",
+        "dmg": 58,
+        "rarity": "LEGENDARY",
+        "upg": 0,
+        "attack_speed": 2.6,
+        "range_px": 72.0,
+        "arc_angle": 130.0,
+        "crit_chance": 0.35,
+        "weapon_category": "SWORD",
+        "projectile_type": "arrow",
+        "sprite_name": "flame sword"
+      },
+      {
+        "name": "Excalibur",
+        "id": "excalibur",
+        "dmg": 58,
+        "rarity": "LEGENDARY",
+        "upg": 0,
+        "attack_speed": 2.6,
+        "range_px": 72.0,
+        "arc_angle": 130.0,
+        "crit_chance": 0.35,
+        "weapon_category": "SWORD",
+        "projectile_type": "arrow",
+        "sprite_name": "flame sword"
+      },
+      {
+        "name": "Heavy Crossbow",
+        "id": "heavy_crossbow",
+        "dmg": 26,
+        "rarity": "UNCOMMON",
+        "upg": 0,
+        "attack_speed": 1.5,
+        "range_px": 400.0,
+        "arc_angle": 110.0,
+        "crit_chance": 0.22,
+        "weapon_category": "CROSSBOW",
+        "projectile_type": "bolt",
+        "sprite_name": "crossbow"
+      },
+      {
+        "name": "Iron Sword",
+        "id": "iron_sword",
+        "dmg": 16,
+        "rarity": "UNCOMMON",
+        "upg": 0,
+        "attack_speed": 2.2,
+        "range_px": 52.0,
+        "arc_angle": 115.0,
+        "crit_chance": 0.12,
+        "weapon_category": "SWORD",
+        "projectile_type": "arrow",
+        "sprite_name": "long sword"
+      },
+      {
+        "name": "Steel Spear",
+        "id": "steel_spear",
+        "dmg": 20,
+        "rarity": "UNCOMMON",
+        "upg": 0,
+        "attack_speed": 2.4,
+        "range_px": 80.0,
+        "arc_angle": 45.0,
+        "crit_chance": 0.15,
+        "weapon_category": "SPEAR",
+        "projectile_type": "arrow",
+        "sprite_name": "spear"
+      },
+      {
+        "name": "Excalibur",
+        "id": "excalibur",
+        "dmg": 58,
+        "rarity": "LEGENDARY",
+        "upg": 0,
+        "attack_speed": 2.6,
+        "range_px": 72.0,
+        "arc_angle": 130.0,
+        "crit_chance": 0.35,
+        "weapon_category": "SWORD",
+        "projectile_type": "arrow",
+        "sprite_name": "flame sword"
+      },
+      {
+        "name": "Titan Greatsword",
+        "id": "great_sword",
+        "dmg": 34,
+        "rarity": "RARE",
+        "upg": 0,
+        "attack_speed": 1.2,
+        "range_px": 68.0,
+        "arc_angle": 160.0,
+        "crit_chance": 0.18,
+        "weapon_category": "GREATSWORD",
+        "projectile_type": "arrow",
+        "sprite_name": "great sword"
+      },
+      {
+        "name": "Abyssal Trident",
+        "id": "trident",
+        "dmg": 28,
+        "rarity": "EPIC",
+        "upg": 0,
+        "attack_speed": 2.5,
+        "range_px": 85.0,
+        "arc_angle": 50.0,
+        "crit_chance": 0.2,
+        "weapon_category": "SPEAR",
+        "projectile_type": "arrow",
+        "sprite_name": "trident"
+      },
+      {
+        "name": "Apprentice Staff",
+        "id": "apprentice_staff",
+        "dmg": 22,
+        "rarity": "COMMON",
+        "upg": 0,
+        "attack_speed": 1.3,
+        "range_px": 320.0,
+        "arc_angle": 110.0,
+        "crit_chance": 0.15,
+        "weapon_category": "STAFF",
+        "projectile_type": "magic_bolt",
+        "sprite_name": "crystal staff"
+      }
+    ]
+  },
+  "player_pos": [
+    30,
+    23
+  ],
+  "dungeon_state": {
+    "rooms": [
+      {
+        "room_id": "ST",
+        "type": "START ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "C0",
+        "type": "COMBAT ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "A0",
+        "type": "COMBAT ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "B0",
+        "type": "ELITE ROOM",
+        "state": "CLEARED",
+        "is_cleared": true,
+        "has_visited": false,
+        "reward_spawned": true
+      },
+      {
+        "room_id": "B1",
+        "type": "SHOP ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "B4",
+        "type": "TREASURE ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "B2",
+        "type": "SURVIVAL ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "B5",
+        "type": "COMBAT ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "B3",
+        "type": "BOSS ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "B7",
+        "type": "TRAP ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "B8",
+        "type": "COMBAT ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      },
+      {
+        "room_id": "B6",
+        "type": "TRAP ROOM",
+        "state": "UNVISITED",
+        "is_cleared": false,
+        "has_visited": false,
+        "reward_spawned": false
+      }
+    ],
+    "explored_rows": [
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0001111111111110000000000111110000000000000000000000000000000000",
+      "0001111111111110000000000111110000000000000000000000000000000000",
+      "0001111111111110000000011111111100000000000000000000000000000000",
+      "0001111111111110000000011111111100000000000000000000000000000000",
+      "0001111111111111111111111111111111101100000000000000000000000000",
+      "0001111111111111111111111111111111111100000000000000000000000000",
+      "0001111111111111111111111111111111111100000000000000000000000000",
+      "0001111111111111111111111111111111111100000000000000000000000000",
+      "0001111111111110000000000111110000000000000000000000000000000000",
+      "0001111111111110000000000111110000000000000000000000000000000000",
+      "0000111111111110000000000111111111000000000000000000000000000000",
+      "0000000011111110000000000111111111000000000000000000000000000000",
+      "0000000011101110000000000111111111000000000000000000000000000000",
+      "0000000011101100000000000111111111000100000000000000000000000000",
+      "0000000000000000000000000111111111111110000000000000000000000000",
+      "0000000000000000000000000111111111111110000000000000000000000000",
+      "0000000000000000000000000111111111111110000000000000000000000000",
+      "0000000000000000000000000111111111100110000000000000000000000000",
+      "0000000000000000000000000111111111000000000000000000000000000000",
+      "0000000000000000000000000111111111000000000000000000000000000000",
+      "0000000000000000000000000111111111000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000",
+      "0000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "chests_opened": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "boss_defeated": false
+  },
+  "dungeon_seed": 914772,
+  "dungeon_floor": 6,
+  "difficulty": "NORMAL"
+}
